@@ -1,0 +1,117 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    
+
+}
+header{
+    background-image: url("./imgs/background.png");
+    padding: 2em 8em;
+    color:white;
+    margin: 0;
+}
+#headersection{
+    text-align: center;
+
+}
+
+
+/* navigation */
+nav{
+    /* padding:2em 1em; */
+    /* display: inline; */
+}
+nav ul {
+    /* list-style: none; */
+    
+    float: right;
+    
+}
+nav ul li,div ul li{
+    display:inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    color:#ffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color:#ffff;
+    color: black;
+    border: 1px solid white;
+    border-radius: 0.5px;
+    padding: 2px;
+}
+div ul li{
+    display:inline; 
+    font-weight: bold;
+    font-size:16px;
+    /* margin-top: -30em; */
+}
+header h2{
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 1.2;
+    /* padding-left: 1.5em; */
+}
+#registerbutton{
+    background-color: #C271FF;
+    color: white;
+    padding: 10px;
+    border: 2px solid #C271FF;
+    border-radius: 5px;
+    margin-top: 4em;
+}
+#registerbutton:hover{
+    background-color:white ;
+    color: #C271FF;
+}
+.spanedtexts{
+    font-size: 22px;
+    /* margin-top: 8em; */
+    padding-top: 8em;
+}
+.spanedtexts span{
+    font-weight: bold;
+    color: #C271FF;
+}
+/* faq */
+#faqsection{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.faq{
+    display: flex;
+}
+
+/* footer */
+footer{
+    background-color: #071629;
+    color:#FFFFFFFF;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+footer ul li{
+    display:inline;
+    padding: 0.5em;
+}
+
+#footer_nav{
+    display: flex;
+   
+}
+#footer_nav div{
+    width: 50%;
+    text-align: center;
+}
+#social{
+    padding-left: 10em;
+}
